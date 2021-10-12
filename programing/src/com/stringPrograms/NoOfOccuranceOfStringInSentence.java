@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 public class NoOfOccuranceOfStringInSentence {
 
 	public static void main(String[] args) { 
-		String s="welcome to tyss to work";
+		String s="wellcome to tyss to work";
 		String [] str = s.split(" ");
 		//Create set collections(HashSet) and add all the char of given string into set.
 		LinkedHashSet<String> set=new LinkedHashSet<String>();

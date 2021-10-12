@@ -27,7 +27,7 @@ public class PrimeNo {
 			boolean answer=isPrime(num);
 			if(answer==true)
 			{
-				System.out.println(num);
+				System.out.print(num+" ");
 				sum=sum+num;
 				count--;
 			}

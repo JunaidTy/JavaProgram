@@ -15,17 +15,17 @@ public class AddingOfArray {
 	{
 		try 
 		{
-		   System.out.println(a[i]+b[i]);
+		   System.out.print(a[i]+b[i]+" ");
 		}
 		catch(Exception e)
 		{
 			if(a.length>b.length)
 			{
-				System.out.println(a[i]);
+				System.out.print(a[i]+" ");
 			}
 			else
 			{
-				System.out.println(b[i]);
+				System.out.print(b[i]+" ");
 			}
 		}
 	}
